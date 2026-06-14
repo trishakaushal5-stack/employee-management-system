@@ -23,7 +23,7 @@ function Signup() {
 
     try {
       const res = await axios.post(
-        "http://loginapp-backend-2chc.onrender.com/api/v1/auth/signup",
+        "https://loginapp-backend-2chc.onrender.com/api/v1/auth/signup",
         formData
       );
 
